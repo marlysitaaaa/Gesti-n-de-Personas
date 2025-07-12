@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+h1 {
+  text-align: center;
+}
+#malla {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.curso {
+  border: 2px solid #666;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.aprobado { background-color: #b2fab4; }
+.cursando { background-color: #fdfd96; }
+.pendiente { background-color: #ffcccb; }
