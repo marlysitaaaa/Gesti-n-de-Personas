@@ -1,13 +1,72 @@
 const cursos = [
-  "Introducción a RRHH",
-  "Comunicación Organizacional",
+  // 1er Año - Semestre 1
+  "Introducción a la Gestión de Personas",
+  "Administración",
+  "Psicología General",
+  "Matemáticas I",
+  "Uso de Recursos de Información",
+  "Inglés I",
+
+  // 1er Año - Semestre 2
+  "Formación Ciudadana",
+  "Economía de Negocios",
+  "Procesos Cognitivos y Afectivos",
+  "Matemáticas II",
+  "Ofimática Aplicada a la Gestión de Personas",
+  "Inglés II",
+
+  // 2do Año - Semestre 3
+  "Gestión I: Bienestar Organizacional y Calidad de Vida",
+  "Estrategia Organizacional",
+  "Neurociencia",
+  "Métodos Cuantitativos I",
+  "Introducción a la Programación Aplicada",
+  "Inglés III",
+
+  // 2do Año - Semestre 4
+  "Gestión II: Capacitación",
+  "Responsabilidad Social y Sustentabilidad",
+  "Taller de Integración Gestión de Personas",
+  "Métodos Cuantitativos II",
+  "Procesamiento y Bases de Datos",
+  "Inglés IV",
+
+  // 3er Año - Semestre 5
+  "Gestión III: Reclutamiento y Selección",
+  "Contabilidad",
+  "Antropología del Trabajo",
+  "Metodología de Investigación Cuantitativa",
+  "Visualización y Minería de Datos",
+  "Legislación Laboral I",
+
+  // 3er Año - Semestre 6
+  "Gestión IV: Compensaciones y Desempeño",
+  "Finanzas y Presupuestos",
+  "Psicología Laboral",
+  "Metodología de Investigación Cualitativa",
+  "Machine Learning",
+  "Legislación Laboral II",
+
+  // 4to Año - Semestre 7
+  "Remuneraciones",
+  "Formulación y Evaluación de Proyectos",
   "Sociología del Trabajo",
-  "Estadística Aplicada",
-  "Legislación Laboral",
-  "Gestión del Talento",
-  "People Analytics",
-  "Psicología Organizacional",
-  "Gestión de Proyectos",
+  "Cambio Organizacional",
+  "Machine Learning Avanzado",
+  "Relaciones Laborales",
+
+  // 4to Año - Semestre 8
+  "Proyecto de Titulación",
+  "Control de Gestión",
+  "Comunicación y Negociación",
+  "Transformación Digital",
+  "Proyecto de Analítica de Personas",
+  "Gestión de la Innovación",
+
+  // 5to Año - Semestre 9
+  "Seminario de Titulación",
+  "Práctica Profesional",
+  "Electivo",
 ];
 
 const estados = ["pendiente", "cursando", "aprobado"];
